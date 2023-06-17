@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32002.261
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastAmmoCrafting", "FastAmmoCrafting.csproj", "{B6AEF55B-D1E2-476E-A607-36E237A2272E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastSplitPointCrafting", "FastSplitPointCrafting.csproj", "{B6AEF55B-D1E2-476E-A607-36E237A2272E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

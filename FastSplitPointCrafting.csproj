@@ -6,15 +6,15 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B6AEF55B-D1E2-476E-A607-36E237A2272E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FastAmmoCrafting</RootNamespace>
-    <AssemblyName>FastAmmoCrafting</AssemblyName>
+    <RootNamespace>FastSplitPointCrafting</RootNamespace>
+    <AssemblyName>FastSplitPointCrafting</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -37,13 +37,18 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="FastSplitPointCrafting.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FastAmmoCrafting.cs" />
+    <Compile Include="FastSplitPointCrafting.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ScriptHookRDRNetAPI">
+    <Reference Include="ScriptHookRDRNetAPI, Version=1.0.5.5, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2\ScriptHookRDRNetAPI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
