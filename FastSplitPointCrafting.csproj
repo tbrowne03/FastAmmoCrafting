@@ -45,10 +45,8 @@
     <Compile Include="FastSplitPointCrafting.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ScriptHookRDRNetAPI, Version=1.0.5.5, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="ScriptHookRDRNetAPI">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Red Dead Redemption 2\ScriptHookRDRNetAPI.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
